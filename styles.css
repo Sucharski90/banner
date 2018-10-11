@@ -1,0 +1,155 @@
+html {
+    background-color: bisque;
+}
+
+.banner-gif-one {
+    background-image: url("img/reveal.jpg");
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: changeImageOne;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 5s
+}
+
+@keyframes changeImageOne {
+    0% {
+        background: url("img/reveal.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    25% {background: url("img/Frame 1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    50% {background: url("img/frame2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    75% {background: url("img/Frame 2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    100%{background: url("img/Frame 3- stay.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+.banner-gif-two {
+    background: url("img/reveal.jpg");
+    height: 160px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: changeImageTwo;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 5s
+}
+@keyframes changeImageTwo {
+    0% {
+        background: url("img/reveal.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    25% {background: url("img/Frame 1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    50% {background: url("img/frame2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    75% {background: url("img/Frame 2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    100%{background: url("img/Frame 3- stay.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+.banner-gif-three {
+    background: url("img/reveal.jpg");
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: changeImageThree;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 5s
+}
+@keyframes changeImageThree {
+    0% {
+        background: url("img/reveal.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    25% {background: url("img/Frame 1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    50% {background: url("img/frame2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    75% {background: url("img/Frame 2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    100%{background: url("img/Frame 3- stay.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+.banner-gif-four {
+    background: url("img/reveal.jpg");
+    height: 728px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: changeImageFour;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 5s
+}
+@keyframes changeImageFour {
+    0% {
+        background: url("img/reveal.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    25% {background: url("img/Frame 1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    50% {background: url("img/frame2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    75% {background: url("img/Frame 2.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    100%{background: url("img/Frame 3- stay.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
