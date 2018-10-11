@@ -1,155 +1,185 @@
 html {
     background-color: bisque;
+    padding: 3rem;
 }
 
 .banner-gif-one {
     background-image: url("img/reveal.jpg");
+    margin: 10px;
     height: 300px;
     width: 250px;
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     animation-name: changeImageOne;
     animation-iteration-count: 1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     transition-property: background;
-    transition-duration: 5s
+    transition-duration: 5s;
+
 }
 
 @keyframes changeImageOne {
     0% {
         background: url("img/reveal.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+         background-size: 100% 100%;
+    background-position: center;
     }
     25% {background: url("img/Frame 1.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+         background-size: 100% 100%;
+    background-position: center;
     }
     50% {background: url("img/frame2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+         background-size: 100% 100%;
+    background-position: center;
     }
     75% {background: url("img/Frame 2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+         background-size: 100% 100%;
+    background-position: center;
     }
     100%{background: url("img/Frame 3- stay.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+         background-size: 100% 100%;
+    background-position: center;
     }
 }
 .banner-gif-two {
     background: url("img/reveal.jpg");
+    margin: 10px;
     height: 160px;
     width: 600px;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    animation-name: changeImageTwo;
+    animation-name: changeImageOne;
     animation-iteration-count: 1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     transition-property: background;
-    transition-duration: 5s
+    transition-duration: 5s;
 }
 @keyframes changeImageTwo {
     0% {
         background: url("img/reveal.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     25% {background: url("img/Frame 1.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     50% {background: url("img/frame2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     75% {background: url("img/Frame 2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     100%{background: url("img/Frame 3- stay.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
 }
 
 .banner-gif-three {
     background: url("img/reveal.jpg");
+    margin: 10px;
     height: 300px;
     width: 600px;
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: changeImageThree;
+    animation-name: changeImageOne;
     animation-iteration-count: 1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     transition-property: background;
-    transition-duration: 5s
+    transition-duration: 5s;
 }
 @keyframes changeImageThree {
     0% {
         background: url("img/reveal.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     25% {background: url("img/Frame 1.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     50% {background: url("img/frame2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     75% {background: url("img/Frame 2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     100%{background: url("img/Frame 3- stay.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
 }
 
 .banner-gif-four {
     background: url("img/reveal.jpg");
+    margin: 10px;
     height: 728px;
     width: 90px;
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: changeImageFour;
+    animation-name: changeImageOne;
     animation-iteration-count: 1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     transition-property: background;
-    transition-duration: 5s
+    transition-duration: 5s;
 }
 @keyframes changeImageFour {
     0% {
         background: url("img/reveal.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     25% {background: url("img/Frame 1.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     50% {background: url("img/frame2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     75% {background: url("img/Frame 2.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
     100%{background: url("img/Frame 3- stay.jpg");
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: 100% 100%;
+    background-position: center;
     }
 }
